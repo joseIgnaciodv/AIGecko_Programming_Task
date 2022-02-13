@@ -1,0 +1,53 @@
+.image_upload_container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-style: dotted;
+    background-color: #f2f6fa;
+    border-color: #b3bcd4;
+    border-radius: 15px;
+    height: 325px;
+    width: 40%;
+    
+}
+
+
+.image_upload_container img{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.file_uploader{
+    margin: auto;
+}
+
+.file_uploader label{
+    border: 10px;
+    border-radius: 8px;
+    background-color: #5975c6;
+    color: #e3eeff;
+    cursor: pointer;
+    font-size: 20px;
+    width: 80px;
+    padding: 15px 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image_upload_container{
+        height: 275px;
+    }
+    
+    .image_upload_container img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .file_uploader label{
+        font-size: 15px;
+        width: 65px;
+        padding: 10px 25px;
+    }
+}

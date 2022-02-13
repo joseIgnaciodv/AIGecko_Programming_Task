@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/frontend_styles.css') }}">
+    <script type="text/javascript" src="{{url_for('static', filename='/js/main.js')}}"></script>
+    <title>AIGecko - Programming Task</title>
+</head>
+<body>
+    <div class="image_upload_container">
+        <img src="/static/images/cloud-computing.png" alt="upload files">
+        <div class="file_uploader">
+            <form method="post" action="/" enctype="multipart/form-data">
+                <input type="file" id="image_upload" name="image_upload" accept="image/*" hidden>
+            </form>
+            
+            <label for="image_upload">Upload Image</label>
+            <span id="prueba" onload="prueba()"></span>
+        </div>
+
+    </div>
+</body>
+</html>
