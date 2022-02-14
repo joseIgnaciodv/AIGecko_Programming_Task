@@ -1,3 +1,5 @@
+/*---------------- Main Page Styles---------------------------*/
+
 .image_upload_container{
     margin: auto;
     display: flex;
@@ -35,6 +37,96 @@
     padding: 15px 32px;
 }
 
+/*---------------- END Main Page Styles---------------------------*/
+
+
+
+/*---------------- List_Images Styles---------------------------*/
+.list_uploads{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.img_container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #b3bcd4;
+    border-radius: 15px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_type{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.img_container span{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.upload_check{
+    padding-top: 5px;
+    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.page_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: #b3bcd4;
+    font-weight: bold;
+}
+
+/*---------------- END List_Images Styles---------------------------*/
+
+
+
+/*---------------- Analyze_Image Styles---------------------------*/
+
+.image_info{
+    margin-top: 15px;
+    text-align: center;
+    width: 256px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.info_img{
+    background-color: #b3bcd4;
+    padding: 0px 20px 20px;
+    border-color: black;
+    border-width: 0.5px;
+    border-style: dashed;
+    border-radius: 15px;
+}
+
+.info_label{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
+}
+
+
+
+/*---------------- END Analyze_Image Styles---------------------------*/
+
+
+
+
+
+/*---------------- Responsive Design Styles---------------------------*/
+
 @media only screen and (max-width: 600px) {
     .image_upload_container{
         height: 275px;
@@ -50,4 +142,24 @@
         width: 65px;
         padding: 10px 25px;
     }
+
+    .img_container{
+        width: 85%;
+    }
+
+    .image_type{
+        width: 35px;
+        height: 35px;
+    }
+
+    .upload_check{
+        width: 18px;
+        height: 18px;
+    }
+    .img_container span{
+        font-size: 15px;
+    }
+
 }
+
+/*---------------- End Responsive Design Styles ---------------------------*/
