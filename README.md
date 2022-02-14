@@ -4,7 +4,7 @@
 Programming Challenge for AIGecko, the objective was to create a simple web app, to allow users to upload images
 as the frontend of the application, and use python and flask to handle the backend part of the app.
 
-![Python](https://www.sketchappsources.com/resources/source-image/python-logo.png)
+![Python](https://images.pling.com/img/00/00/08/01/07/1107980/66411-1.png)
 
 
 # Installation and Use
