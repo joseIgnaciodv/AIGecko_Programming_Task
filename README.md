@@ -21,5 +21,5 @@ cd /path/to/AIGecko_Programming_Task
 ```
 To run the app, insert thr following command:
 ```
-python /backend.py
+python backend.py
 ```
